@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "5.2.10",
     "@ionic-native/core": "4.4.0",
     "@ionic-native/facebook": "^4.5.3",
-    "@ionic-native/google-plus": "^4.5.3",
+    "@ionic-native/google-plus": "^4.20.0",
     "@ionic-native/splash-screen": "4.4.0",
     "@ionic-native/status-bar": "4.4.0",
     "@ionic-native/twitter-connect": "^4.5.3",
@@ -63,8 +63,7 @@
         "APP_NAME": "myApplication"
       },
       "cordova-plugin-googleplus": {
-        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.401245627689-mcupb7o4sra8p6jqnlhe17d8b2rf4du6",
-        "PLAY_SERVICES_VERSION": "11.8.0"
+        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.132757048683-4kpa64r4r1uav316t3607jk2us92uvmj"
       },
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-ionic-webview": {},
