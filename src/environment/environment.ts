@@ -3,11 +3,21 @@ export const environment = {
   // fbAppId: 186848361921511,
   googleWebClientId: '401245627689-ke4oci7bc8440anmpo4dms1od5keoome.apps.googleusercontent.com',
   firebase: {
-    apiKey: "AIzaSyATBlD3709OkzGzNq5_a1Db2jk8-SBPDlg",
-    authDomain: "thinking-return-94920.firebaseapp.com",
-    databaseURL: "https://thinking-return-94920.firebaseio.com",
-    projectId: "thinking-return-94920",
-    storageBucket: "thinking-return-94920.appspot.com",
-    messagingSenderId: "401245627689"
-  }
+    apiKey: 'AIzaSyApWycev4L6Pj2KGCUjMR6TpUp4ShneZes',
+    authDomain: "ionicthemes-com-firebase-auth.firebaseapp.com",
+    databaseURL: "https://ionicthemes-com-firebase-auth.firebaseio.com",
+    projectId: "ionicthemes-com-firebase-auth",
+    storageBucket: "ionicthemes-com-firebase-auth.appspot.com",
+    messagingSenderId: "864158455367",
+    appId: "1:864158455367:web:d2218966eceef170d88362"
+}
 };
+// export const environment = {
+//   apiKey: 'AIzaSyApWycev4L6Pj2KGCUjMR6TpUp4ShneZes',
+//   authDomain: "ionicthemes-com-firebase-auth.firebaseapp.com",
+//   databaseURL: "https://ionicthemes-com-firebase-auth.firebaseio.com",
+//   projectId: "ionicthemes-com-firebase-auth",
+//   storageBucket: "ionicthemes-com-firebase-auth.appspot.com",
+//   messagingSenderId: "864158455367",
+//   appId: "1:864158455367:web:d2218966eceef170d88362"
+// };
