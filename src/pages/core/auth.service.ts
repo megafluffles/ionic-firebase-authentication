@@ -97,7 +97,7 @@ export class AuthService {
         .signInWithPopup(new firebase.auth.FacebookAuthProvider())
         .then(result => {
           //Default facebook img is too small and we need a bigger image
-          var bigImgUrl = "https://graph.facebook.com/" + result.additionalUserInfo.profile + "/picture?height=500";
+          var bigImgUrl = "https://graph.facebook.com/" + result.additionalUserInfo.profile.id + "/picture?height=500";
           //var bigImgUrl = "https://graph.facebook.com/100043812630036/picture?height=500";
           // update profile to save the big fb profile img.
           firebase.auth().currentUser.updateProfile({
